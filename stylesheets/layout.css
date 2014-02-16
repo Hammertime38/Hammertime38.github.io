@@ -145,6 +145,15 @@ span.line4 {
 	margin-left: 15px;
 }
 
+span.line5 {
+	background: #6f6f6f;
+	width: 230px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-left: 15px;
+}
+
 .dotted-bar2 {
 	background: url(../images/dotted-bg.png) repeat;
 	width: 100%;
@@ -193,8 +202,6 @@ span.line4 {
 
 #intro .bg1 {
 	background: url(../images/intro-bg.jpg) 0 0 repeat fixed;
-	/*background: url(../images/intro-bg2.jpg) repeat fixed;*/ /*Background 2*/
-	/*background: url(../images/intro-bg3.jpg) repeat fixed;*/ /*Background 3*/
 	margin: 0 auto;
 	padding: 0;
 	position: absolute;
@@ -303,8 +310,8 @@ span.logotext {
 	display: inline-block;
 }
 
-.gplus {
-	background: url(../images/icn-gplus.png) no-repeat 0 0;
+.github {
+	background: url(../images/icn-github.png) no-repeat 0 0;
 	width: 50px;
 	height: 51px;
 	display: inline-block;
@@ -345,7 +352,7 @@ span.logotext {
 ================================================== */
 
 .nav2 {
-	background: #fff;
+	background: #4E4E4E;
 	width: 100%;
 	height: 34px;
 	margin-top: -34px;
@@ -384,7 +391,7 @@ span.logotext {
 
 .nav2 ul li {
 	display: inline;
-	
+	background: #4E4E4E;
 }
 
 
@@ -404,10 +411,32 @@ span.logotext {
 	width: 459px;
 	height: 349px;
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imac img {
+	padding-top: 18px;
+	padding-left: 18px;
+}
+
+.dell {
+	background: url(../images/dell_monitor.png);
+	width: 459px;
+	height: 377px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dell img {
+	padding-top: 20px;
+	width: 417px;
+	height: 264px;
 }
 
 .portfolio h3 {
-	margin-top: 40px;
+	margin-top: 80px;
 }
 
 
@@ -476,6 +505,17 @@ p.serv {
 	color: #918B8B;
 }
 
+
+/* #Contributions
+================================================== */
+
+#contributions {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 90px 0 70px 0;
+	text-align: center;
+}
 
 
 /* #Testimonials
@@ -631,7 +671,6 @@ p.line2nd {
 
 #contact {
 	width: 100%;
-	height: 650px;
 	position: relative;
 }
 
@@ -644,7 +683,7 @@ p.line2nd {
 	position: absolute;
 	z-index: 200;
 	width: 100%;
-	height: 750px;
+	height: 428px;
 }
 
 .dotted-bar3 {
@@ -714,6 +753,9 @@ p.line2nd {
 .contact-info {
 	position: relative;
 	z-index: 300;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .contact-info {
@@ -733,6 +775,15 @@ p.line2nd {
 	vertical-align: middle;
 }
 
+#contact a {
+	color : #fff;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: #fcd996;
+	text-decoration: underline;
+}
 
 .copyright {
 	background: url(../images/dotted-bg-transp.png) repeat;
@@ -773,7 +824,7 @@ p.line2nd {
 		}
 	
 	
-		span.line, span.line2, span.line3, span.line4 {
+		span.line, span.line2, span.line3, span.line4, span.line5 {
 			display: none;
 		}
 		
